@@ -75,3 +75,18 @@ font-size: 20px;
     font-size: 16px;
 }
 
+.paddingT {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    align-items: top;
+}
+
