@@ -1,6 +1,20 @@
 @font-face {
     font-family: Dosis;
-    src: url(../assets/Dosis-VariableFont_wght.ttf);
+    src: url(../assets/Dosis-Regular.ttf);
+}
+
+@font-face {
+    font-family: SourceSans;
+    src: url(../assets/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: SourceSansBold;
+    src: url(../assets/SourceSansPro-Bold.otf);
+}
+
+.bgWhite {
+    background-color: white;
 }
 
 .Dosis {
@@ -75,9 +89,14 @@ font-size: 20px;
     font-size: 16px;
 }
 
-.paddingT {
-    padding-top: 5%;
+.paddingHamster {
+    padding-top: 7%;
     padding-bottom: 5%;
+}
+
+.paddingRooms {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .between {
@@ -90,3 +109,28 @@ font-size: 20px;
     align-items: top;
 }
 
+.roomsBg {
+    background-image: url(../assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.roomspicSize {
+    height: 190px;
+    width: 369px;
+}
+
+.start {
+    display: flex;
+    justify-content: start;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+}
+
+.welcomeHamSize {
+    font-size: 35px;
+}
