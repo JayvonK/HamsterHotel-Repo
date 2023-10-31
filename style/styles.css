@@ -165,3 +165,8 @@ font-size: 20px;
 .paddingAmenities {
     padding-top: 2%;
 }
+
+.paddingFooter {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
