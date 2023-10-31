@@ -170,3 +170,31 @@ font-size: 20px;
     padding-top: 1%;
     padding-bottom: 5%;
 }
+
+.center2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bgHamReserve {
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-size: cover;
+}
+
+.paddingReserve {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.paddingInput {
+    padding-bottom: 5px;
+}
+
+.down {
+    display: flex;
+    align-items: end;
+}
