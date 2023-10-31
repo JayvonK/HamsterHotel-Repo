@@ -179,6 +179,7 @@ font-size: 20px;
 .bgHamReserve {
     background-image: url(../assets/hamsterreserve.jpg);
     background-size: cover;
+    background-position-y: 70%;
 }
 
 .paddingReserve {
