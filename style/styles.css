@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Dosis;
+    src: url(../assets/Dosis-VariableFont_wght.ttf);
+}
+
+.Dosis {
+    font-family: Dosis;
+}
+
+.bgDark {
+    background-color: #000324;
+}
+
+.white {
+    color: white;
+}
+
+.txtAlingEnd {
+    text-align: end;
+}
+
+.headerBg {
+    background-image: url(../assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.luxuryBg {
+    background-color: hsla(235, 100%, 7%, 0.8);
+    height: 232px; 
+    width: 100%;
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+}
+
+.middle2 {
+    display: flex;
+    align-content: center;
+}
+
+.navbarItemSize {
+    width: 100%;
+}
+
+.even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    align-items: end;
+}
+
+.navFontSize {
+font-size: 20px;
+}
+
+.luxuryFontSize {
+    font-size: 45px;
+}
