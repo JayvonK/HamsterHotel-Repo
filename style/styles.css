@@ -134,3 +134,16 @@ font-size: 20px;
 .welcomeHamSize {
     font-size: 35px;
 }
+
+.cardBorder {
+    outline: 0%;
+    border: 0%;
+    border-radius: 0%;
+}
+
+.cardPadding {
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+}
