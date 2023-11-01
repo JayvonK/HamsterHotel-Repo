@@ -42,7 +42,7 @@
         <div class="col"></div>
     </div>
 
-    <div class="headerBg" style="height: 500px;">
+    <div class="row headerBg">
         <div class="container-fluid even middle" style="height: 100%;">
             <div class="row" style="width: 100%;">
                 <div class="col"></div>
@@ -82,12 +82,48 @@
 
 
 
-    <div class="roomsBg" style="height: 738px;">
-        <div class="container">
+    <div class="row roomsBg">
             <div class="row paddingRooms">
                 <h1 class="center welcomeHamSize Dosis white">Our Rooms</h1>
             </div>
             <div class="row">
+                <div class="col"></div>
+            <div class="col end">
+                <div class="card cardBorder">
+                    <img src="./assets/room1.jpg" class="card-img-top cardBorder" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col center">
+                <div class="card cardBorder">
+                    <img src="./assets/room3.jpg" class="card-img-top cardBorder" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col start">
+                <div class="card cardBorder">
+                    <img src="./assets/room2.jpg" class="card-img-top cardBorder" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+            <!-- <div class="row">
                 <div class="col"></div>
                 <div class="col end">
                     <div class="card roomspicSize cardBorder">
@@ -122,8 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col"></div>
-            </div>
+                <div class="col"></div> -->
         </div>
     </div>
 
@@ -155,37 +190,38 @@
         <div class="col"></div>
     </div>
 
-    <div class="amenitiesBg" style="height: 548px;">
-        <div class="container paddingAmenities">
+    <div class="row amenitiesBg">
+        <div class="col"></div>
+        <div class="col-8 paddingAmenities bgDark">
             <div class="row txtCenter white">
                 <h3 class="Dosis welcomeHamSize">Amenities</h3>
                 <p class="SourceSans luxuryFontSize2">Here at La Petite Maison, we invite you to enjoy our services in
                     hopes that you have the most relaxing stay we can provide.</p>
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row paddingAmenities2">
+               <div class="col around">
                     <div class="row center"><img src="./assets/24hour.png" alt="" style="width: 150px; height: 101px;">
                     </div>
                     <div class="row txtCenter">
                         <p class="white">24 Hour Room Service</p>
                     </div>
-                </div>
-                <div class="col">
+                
+                
                     <div class="row center"><img src="./assets/breakfast.png" alt=""
                             style="width: 150px; height: 104px;"></div>
                     <div class="row txtCenter">
                         <p class="white">Complimentary Breakfast</p>
                     </div>
 
-                </div>
-                <div class="col">
+                
+                
                     <div class="row center"><img src="./assets/valet.png" alt="" style="width: 100px; height: 115px;">
                     </div>
                     <div class="row txtCenter">
                         <p class="white">Valet Parking</p>
                     </div>
-                </div>
-                <div class="col">
+                
+                
                     <div class="row center"><img src="./assets/pool.png" alt="" style="width: 155px; height: 110px;">
                     </div>
                     <div class="row txtCenter">
@@ -194,32 +230,45 @@
                 </div>
             </div>
         </div>
+        <div class="col"></div>
     </div>
 
     <div class="row paddingReserve">
         <div class="col"></div>
         <div class="col-7">
-            <div class="row bgDark" style="height: 207px;">
-                <div class="row txtCenter Dosis middle">
+            <div class="row bgDark paddingReserve3">
+                <div class="row txtCenter Dosis middle paddingReserve2">
                     <h2 class="welcomeHamSize white">Reserve a Room</h2>
                 </div>
                 <div class="row">
                     <div class="col"></div>
                     <div class="col-10">
-                        <div class="row white SourceSans paddingInput">
-                        <div class="col">Check in</div>
-                        <div class="col">Check out</div>
-                        <div class="col">Number of Guests</div>
-                        <div class="col">Room Type</div>
-                        <div class="col"></div>
+                        <div class="row SourceSans white">
+                            <div class="col">
+                                <div class="row paddingInputs">Check-in</div>
+                                <div class="row paddingInputs" style="width: 177px; height: 38px;"><input type="text"></div>
+                            </div>
+
+                            <div class="col">
+                                <div class="row paddingInputs">Check-Out</div>
+                                <div class="row paddingInputs" style="width: 177px; height: 38px;"><input type="text"></div>
+                            </div>
+
+                            <div class="col">
+                                <div class="row paddingInputs">Number of Guests</div>
+                                <div class="row paddingInputs" style="width: 177px; height: 38px;"><input type="text"></div>
+                            </div>
+
+                            <div class="col">
+                                <div class="row paddingInputs">Room Type</div>
+                                <div class="row paddingInputs" style="width: 177px; height: 38px;"><input type="text"></div>
+                            </div>
+
+                            <div class="col">
+                                <div class="row">&nbsp </div>
+                                <div class="row"><button type="button" class="bg-primary white bold"
+                                    style="width: 177px; height: 38px;">Check Availability</button></div></div>
                         </div>
-                        <div class="row SourceSans">
-                        <div class="col"><input type="text" style="width: 100%;"></div>
-                        <div class="col"><input type="text" style="width: 100%;"></div>
-                        <div class="col"><input type="text" style="width: 100%;"></div>
-                        <div class="col"><input type="text" style="width: 100%;"></div>
-                        <div class="col"><button type="button" class="bg-primary white bold" style="width: 100%;">Check Availability</button></div>
-                    </div>
                     </div>
                     <div class="col"></div>
                 </div>

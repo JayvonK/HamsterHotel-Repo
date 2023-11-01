@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Dosis;
     src: url(../assets/Dosis-Regular.ttf);
@@ -102,6 +103,10 @@ font-size: 20px;
     padding-bottom: 2%;
 }
 
+.paddingRooms2 {
+    padding-bottom: 5%;
+}
+
 .between {
     display: flex;
     justify-content: space-between;
@@ -139,8 +144,7 @@ font-size: 20px;
 }
 
 .cardBorder {
-    outline: 0%;
-    border: 0%;
+    border: none;
     border-radius: 0%;
 }
 
@@ -166,12 +170,16 @@ font-size: 20px;
     padding-top: 2%;
 }
 
+.paddingAmenities2 {
+    padding-top: 6%;
+}
+
 .paddingFooter {
     padding-top: 1%;
     padding-bottom: 5%;
 }
 
-.center2 {
+.around {
     display: flex;
     justify-content: space-around;
 }
@@ -187,15 +195,26 @@ font-size: 20px;
     padding-bottom: 5%;
 }
 
-.bold {
-    font-weight: bold;
+.paddingReserve2 {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
-.paddingInput {
-    padding-bottom: 5px;
+.paddingReserve3 {
+    padding-bottom: 4%;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .down {
     display: flex;
     align-items: end;
 }
+
+.paddingInputs {
+    padding-right: 3%;
+    padding-left: 3%
+}
+
