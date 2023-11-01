@@ -38,7 +38,7 @@
     <div class="container-fluid">
         <div class="row bgDark">
             <div class="col"></div>
-            <div class="col-5">
+            <div class="col-7">
                 <nav class="navbar navbar-expand-lg">
                     <a><img class="img-fluid d-lg-none" src="./assets/Logo.png" alt="La Petite Maison Logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -46,12 +46,25 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    </nav>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+                <nav class="navbar navbar-expand-lg">
+                    <!-- <a><img class="img-fluid d-lg-none" src="./assets/Logo.png" alt="La Petite Maison Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> -->
                     <div class="collapse navbar-collapse even" id="navbarNavAltMarkup">
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav navbarItemSize even bottom">
-                                <a class="nav-link white Dosis navFontSize" aria-current="page" href="#">Overview</a>
-                                <a class="nav-link white Dosis navFontSize" href="#">Rooms</a>
-                                <a class="nav-link white Dosis navFontSize" href="#">Packages</a>
+                            <div class="navbar-nav even bottom">
+                                <a class="nav-link white Dosis navFontSize paddingNavItems" aria-current="page" href="#">Overview</a>
+                                <a class="nav-link white Dosis navFontSize paddingNavItems" href="#">Rooms</a>
+                                <a class="nav-link white Dosis navFontSize paddingNavItems" href="#">Packages</a>
                                 <a class="nav-link white Dosis navFontSized d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
                                     href="#"><img src="./assets/Logo.png" class="img-fluid"
                                         alt="La Petite Maison Logo"></a>
@@ -130,41 +143,53 @@
             <div class="row paddingRooms">
                 <h1 class="center welcomeHamSize Dosis white">Our Rooms</h1>
             </div>
-            <div class="row">
+            <div class="row pb-4">
                 <div class="col"></div>
-                <div class="col end">
-                    <div class="card cardBorder">
-                        <img src="./assets/room1.jpg" class="card-img-top cardBorder" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-8 even">
+                    <div class="row">
+                        <div class="col end">
+                            <div class="card cardBorder" style="width: 369px;"">
+                                <img src="./assets/room1.jpg" class="card-img-top cardBorder" alt="..." style="height: 190px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col center">
+                            <div class="card cardBorder" style="width: 369px;">
+                                <img src="./assets/room3.jpg" class="card-img-top cardBorder" alt="..." style="height: 190px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col start">
+                            <div class="card cardBorder" style="width: 369px;">
+                                <img src="./assets/room2.jpg" class="card-img-top cardBorder" alt="..." style="height: 190px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+
+
+
                 </div>
-                <div class="col center">
-                    <div class="card cardBorder">
-                        <img src="./assets/room3.jpg" class="card-img-top cardBorder" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col start">
-                    <div class="card cardBorder">
-                        <img src="./assets/room2.jpg" class="card-img-top cardBorder" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="col"></div>
             </div>
 
@@ -210,7 +235,8 @@
             <div class="col-7 paddingAmenities">
                 <div class="row txtCenter white">
                     <h3 class="Dosis welcomeHamSize">Amenities</h3>
-                    <p class="SourceSans luxuryFontSize2 pt-3">Here at La Petite Maison, we invite you to enjoy our services
+                    <p class="SourceSans luxuryFontSize2 pt-3">Here at La Petite Maison, we invite you to enjoy our
+                        services
                         in
                         hopes that you have the most relaxing stay we can provide.</p>
                 </div>

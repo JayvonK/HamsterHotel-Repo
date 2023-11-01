@@ -37,6 +37,11 @@
     text-align: end;
 }
 
+.paddingNavItems{
+    padding-right: 10%;
+    padding-left: 4%;
+}
+
 .headerBg {
     background-image: url(../assets/header.jpg);
     background-repeat: no-repeat;
