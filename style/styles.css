@@ -14,6 +14,10 @@
     src: url(../assets/SourceSansPro-Bold.otf);
 }
 
+.SourceSans {
+    font-family: SourceSans;
+}
+
 .bgCheck {
     background-color: red;
 }
