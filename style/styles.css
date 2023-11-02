@@ -14,9 +14,11 @@
     src: url(../assets/SourceSansPro-Bold.otf);
 }
 
+
 .SourceSans {
     font-family: SourceSans;
 }
+
 
 .bgCheck {
     background-color: red;
@@ -50,7 +52,7 @@
     background-image: url(../assets/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-y: 56%;
     
 }
 
@@ -92,6 +94,10 @@
     align-items: end;
 }
 
+.nothing {
+    text-decoration: none;
+}
+
 .navFontSize {
 font-size: 20px;
 }
@@ -105,8 +111,8 @@ font-size: 20px;
 }
 
 .paddingHamster {
-    padding-top: 7%;
-    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .paddingRooms {
@@ -115,7 +121,7 @@ font-size: 20px;
 }
 
 .paddingRooms2 {
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 
 .between {
@@ -132,7 +138,7 @@ font-size: 20px;
     background-image: url(../assets/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-y: 70%;
 }
 
 .roomspicSize {
@@ -188,7 +194,7 @@ font-size: 20px;
 
 .paddingFooter {
     padding-top: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .around {
@@ -217,7 +223,7 @@ font-size: 20px;
 }
 
 .bold {
-    font-weight: bold;
+    font-family: SourceSansBold;
 }
 
 .down {
@@ -231,8 +237,8 @@ font-size: 20px;
 }
 
 .paddingHeader {
-    padding-top: 6%;
-    padding-bottom: 6%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .bgParadise {
@@ -268,11 +274,41 @@ font-size: 20px;
     padding-top: 3%;
 }
 
+.paddingPackage{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .price {
     color: #1F51A8;
 }
 
 .lineSpaceUL {
     line-height: 40px;
-    margin-left: -10px;
+    margin-left: 3px;
+}
+
+.paddingBtns {
+    margin-left: 4%;
+}
+
+.paddingBtns2 {
+    margin-left: 4%;
+}
+
+.btnColor {
+    background-color: #004CC7;
+}
+
+.black {
+    color: #1A1B26;
+}
+
+.pBelow {
+    padding-bottom: 16px;
+}
+
+.reserve {
+    padding-left: 1%;
+    padding-right: 1%;
 }
