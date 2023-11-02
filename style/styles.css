@@ -57,6 +57,8 @@
     text-align: center;
 }
 
+
+
 .middle {
     display: flex;
     align-items: center;
@@ -242,4 +244,31 @@ font-size: 20px;
 
 .navTxt {
     height: 33px;
+}
+
+.titleHam {
+    margin-top: -12px;
+    padding-bottom: 2%;
+}
+
+.lineSpace {
+    word-spacing: 0px;
+    line-height: 20px;
+}
+
+.packagesFontSize {
+    font-size: 25px;
+}
+
+.paddingPackageTitle{
+    padding-top: 3%;
+}
+
+.price {
+    color: #1F51A8;
+}
+
+.lineSpaceUL {
+    line-height: 40px;
+    margin-left: -10px;
 }
