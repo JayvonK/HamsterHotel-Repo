@@ -13,19 +13,13 @@
     src: url(../assets/SourceSansPro-Bold.otf);
 }
 
-
 .SourceSans {
     font-family: SourceSans;
 }
 
-
-
-
 .Dosis {
     font-family: Dosis;
 }
-
-
 
 .white {
     color: white;
@@ -39,8 +33,6 @@
     padding-right: 10%;
     padding-left: 4%;
 }
-
-
 
 .middle {
     display: flex;
@@ -89,16 +81,16 @@
 
 .paddingHamster {
     padding-top: 5%;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
 }
 
 .paddingRooms {
-    padding-top: 2%;
+    padding-top: 1.5%;
     padding-bottom: 2%;
 }
 
 .paddingRooms2 {
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
 
 .between {
@@ -110,8 +102,6 @@
     display: flex;
     align-items: top;
 }
-
-
 
 .roomspicSize {
     height: 190px;
@@ -151,7 +141,7 @@
 }
 
 .paddingAmenities {
-    padding-top: 2%;
+    padding-top: 2.5%;
     padding-bottom: 8%;
 }
 
@@ -205,7 +195,7 @@
 }
 
 .hov:hover {
-    outline: 1px solid white;
+    outline: 1px solid #E5FEFF;
     color: white;
 }
 
@@ -218,9 +208,12 @@
 }
 
 .outline {
-    outline: 1px solid white;
+    outline: 1px solid #E5FEFF;
 }
 
+.white2 {
+    color: #E5FEFF;
+}
 .navTxt {
     height: 33px;
 }
@@ -322,12 +315,12 @@
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     div.mediaQ4 {
         margin-right: -11px !important;
     }
 }
-    
+
 
 @media screen and (max-width: 425px) {
     div.mediaQ3 {
@@ -337,7 +330,7 @@
     p.mediaQ3 {
         width: 250px !important;
     }
-    
+
     h1.mediaFnt {
         font-size: 35px;
     }
@@ -392,9 +385,6 @@
     background-position-x: 30%;
     background-size: 175%;
 }
-
-/* d-md-none d-lg-block
-    d-none d-sm-none d-md-block d-lg-none */
 
 .bgSuite {
     background-image: url(../assets/room2.jpg);
