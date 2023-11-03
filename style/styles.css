@@ -205,8 +205,18 @@ font-size: 20px;
     padding-bottom: 7%;
 }
 
+.hov:hover{
+    outline: 1px solid white;
+    color: white;
+}
 
+.hov:focus {
+    color: white !important;
+}
 
+.nav-link {
+    color: white;
+}
 
 .outline {
     outline: 1px solid white;
@@ -227,6 +237,14 @@ font-size: 20px;
 }
 
 .packagesFontSize {
+    font-size: 25px;
+}
+
+.packagesFontSize2 {
+    font-size: 35px;
+}
+
+.packagesFontSize3 {
     font-size: 25px;
 }
 
@@ -287,6 +305,10 @@ font-size: 20px;
     h2.mediaQ {
         font-weight: bold;
     }
+
+    h5.mediaQ {
+        font-weight: bold;
+    }
 }
 
 .mediaQ {
@@ -337,6 +359,9 @@ font-size: 20px;
     background-position-x: 30%;
     background-size: 175%;
 }
+
+/* d-md-none d-lg-block
+    d-none d-sm-none d-md-block d-lg-none */
 
 .bgSuite {
     background-image: url(../assets/room2.jpg);
