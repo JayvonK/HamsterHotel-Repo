@@ -314,12 +314,18 @@ font-size: 20px;
 @media screen and (max-width: 1500px) {
     div.mediaQ2 {
         width: 200px !important;
-        height: 100px !important;
+        height: 90px !important;
     }
     
     button.mediaQ2 {
         width: 200px !important;
-        height: 40px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    div.mediaQ3 {
+        width: 200px !important;
+        height: 90px !important;
     }
 }
 
