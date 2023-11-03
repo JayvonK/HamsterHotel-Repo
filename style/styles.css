@@ -311,6 +311,18 @@ font-size: 20px;
     }
 }
 
+@media screen and (max-width: 1500px) {
+    div.mediaQ2 {
+        width: 200px !important;
+        height: 100px !important;
+    }
+    
+    button.mediaQ2 {
+        width: 200px !important;
+        height: 40px !important;
+    }
+}
+
 .mediaQ {
     opacity: 100%;
 }
