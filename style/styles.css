@@ -20,20 +20,13 @@
 }
 
 
-.bgCheck {
-    background-color: red;
-}
-.bgWhite {
-    background-color: white;
-}
+
 
 .Dosis {
     font-family: Dosis;
 }
 
-.bgDark {
-    background-color: #000324;
-}
+
 
 .white {
     color: white;
@@ -46,21 +39,6 @@
 .paddingNavItems{
     padding-right: 10%;
     padding-left: 4%;
-}
-
-.headerBg {
-    background-image: url(../assets/header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 56%;
-    
-}
-
-.luxuryBg {
-    background-color: hsla(235, 100%, 7%, 0.8);
-    height: 232px; 
-    width: 100%;
-    text-align: center;
 }
 
 
@@ -134,12 +112,7 @@ font-size: 20px;
     align-items: top;
 }
 
-.roomsBg {
-    background-image: url(../assets/bg2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 70%;
-}
+
 
 .roomspicSize {
     height: 190px;
@@ -172,12 +145,7 @@ font-size: 20px;
     padding-right: 3%;
 }
 
-.amenitiesBg {
-    background-image: url(../assets/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 65%;
-}
+
 
 .txtCenter {
     text-align: center;
@@ -202,11 +170,7 @@ font-size: 20px;
     justify-content: space-around;
 }
 
-.bgHamReserve {
-    background-image: url(../assets/hamsterreserve.jpg);
-    background-size: cover;
-    background-position-y: 70%;
-}
+
 
 .paddingReserve {
     padding-top: 5%;
@@ -215,7 +179,7 @@ font-size: 20px;
 
 .paddingReserve2 {
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 
 .paddingReserve3 {
@@ -232,8 +196,8 @@ font-size: 20px;
 }
 
 .paddingInputs {
-    padding-right: 3%;
-    padding-left: 3%
+    padding-right: 4%;
+    padding-left: 4%
 }
 
 .paddingHeader {
@@ -241,12 +205,8 @@ font-size: 20px;
     padding-bottom: 7%;
 }
 
-.bgParadise {
-    background-image: url(../assets/hamsterhomejpg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
+
 
 .outline {
     outline: 1px solid white;
@@ -296,6 +256,12 @@ font-size: 20px;
     margin-left: 4%;
 }
 
+.btnPad {
+    margin-right: -26px;
+}
+
+
+
 .btnColor {
     background-color: #004CC7;
 }
@@ -311,4 +277,137 @@ font-size: 20px;
 .reserve {
     padding-left: 1%;
     padding-right: 1%;
+}
+
+@media screen and (max-width: 767px) {
+    p.mediaQ {
+        font-weight: bold;
+    }
+
+    h2.mediaQ {
+        font-weight: bold;
+    }
+}
+
+.mediaQ {
+    opacity: 100%;
+}
+
+.bg24 {
+    background-image: url(../assets/24hour.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgBreakfast {
+    background-image: url(../assets/breakfast.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgValet {
+    background-image: url(../assets/valet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgPool {
+    background-image: url(../assets/pool.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgCheck {
+    background-color: red;
+}
+.bgWhite {
+    background-color: white;
+}
+
+.bgQueen {
+    background-image: url(../assets/room1.jpg);
+    background-position-y: 60%;
+    background-position-x: 30%;
+    background-size: 170%;
+}
+
+.bgKing {
+    background-image: url(../assets/room3.jpg);
+    background-position-y: 49%;
+    background-position-x: 30%;
+    background-size: 175%;
+}
+
+.bgSuite {
+    background-image: url(../assets/room2.jpg);
+    background-position-y: 49%;
+    background-position-x: 30%;
+    background-size: 175%;
+}
+
+.bgDark {
+    background-color: #000324;
+}
+
+.headerBg {
+    background-image: url(../assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 56%;
+    background-position-x: 40%;
+    
+}
+
+.luxuryBg {
+    background-color: hsla(235, 100%, 7%, 0.8);
+    height: 232px; 
+    width: 100%;
+    text-align: center;
+}
+
+.roomsBg {
+    background-image: url(../assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+}
+
+.amenitiesBg {
+    background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 65%;
+}
+
+.bgHamReserve {
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-size: cover;
+    background-position-y: 70%;
+}
+
+.bgParadise {
+    background-image: url(../assets/hamsterhomejpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgWedding {
+    background-image: url(../assets/hamsterwedding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgBloom {
+    background-image: url(../assets/hamsterspring.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 35%;
+}
+
+.bgCheese {
+    background-image: url(../assets/hamstercheese.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 80%;
 }

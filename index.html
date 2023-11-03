@@ -13,11 +13,12 @@
 <body>
 
     <div class="container-fluid">
-        <div class="row bgDark">
+        <div class="row bgDark" style="margin-top: -24px;">
             <div class="col"></div>
             <div class="col-7">
                 <nav class="navbar navbar-expand-lg">
-                    <a><img class="img-fluid d-lg-none" src="./assets/Logo.png" alt="La Petite Maison Logo"></a>
+                    <a><img class="img-fluid d-lg-none" src="./assets/Logo.png" alt="La Petite Maison Logo"
+                            style="margin-top: 15%;"></a>
                     <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -31,15 +32,15 @@
                             <div class="collapse navbar-collapse even" id="navbarNavAltMarkup">
                                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                                     <div class="navbar-nav navbarItemSize even bottom">
-                                        <a class="white Dosis navFontSize nothing" href="#">Overview</a>
-                                        <a class="white Dosis navFontSize nothing" href="#">Rooms</a>
-                                        <a class="white Dosis navFontSize nothing" href="#">Packages</a>
-                                        <a class="white Dosis navFontSized d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
+                                        <a class="nav-link white Dosis navFontSize" href="#">Overview</a>
+                                        <a class="nav-link white Dosis navFontSize" href="#">Rooms</a>
+                                        <a class="nav-link white Dosis navFontSize" href="#">Packages</a>
+                                        <a class="nav-link white Dosis navFontSized d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
                                             href="#"><img src="./assets/Logo.png" class="img-fluid"
                                                 alt="La Petite Maison Logo"></a>
-                                        <a class="white Dosis navFontSize nothing" href="#">Amenities</a>
-                                        <a class="white Dosis navFontSize nothing" href="#">Contact</a>
-                                        <a class="white Dosis navFontSize outline nothing reserve" aria-current="page"
+                                        <a class="nav-link white Dosis navFontSize" href="#">Amenities</a>
+                                        <a class="nav-link white Dosis navFontSize" href="#">Contact</a>
+                                        <a class="nav-link white Dosis navFontSize outline" aria-current="page"
                                             href="#">Reserve</a>
                                     </div>
                                 </div>
@@ -55,11 +56,11 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row headerBg paddingHeader">
+        <div class="row headerBg paddingHeader center">
 
             <div class="row">
                 <div class="col"></div>
-                <div class="col-10 col-md-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center">
+                <div class="col-10 col-md-10 col-sm-10 col-lg-8 col-xl-7 col-xxl-6 d-flex justify-content-center">
                     <div class="luxuryBg middle center Dosis">
                         <div class="row">
                             <div class="col">
@@ -85,18 +86,22 @@
     <div class="container-fluid">
         <div class="row paddingHamster">
             <div class="col"></div>
-            <div class="col-7">
+            <div class="col-10 col-lg-8 col-xl-10 col-xxl-8">
                 <div class="row center">
                     <div class="card mb-3 cardBorder">
                         <div class="row g-0">
-                            <div class="col-xl-4">
-                                <img src="./assets/hamsterhomejpg.jpg" class="img-fluid pb-4" alt="..."
-                                    style="width: 100%; height: 416px;">
+                            <div class="col-xl-4 end">
+                                <div class="pb-4 bgParadise d-lg-none d-md-none d-sm-none d-none d-xl-block"
+                                    style="width: 355px; height: 416px;"></div>
+                                <div class="pb-4 bgParadise d-none d-sm-none d-md-block d-xl-none d-xxl-none"
+                                    style="width: 100%; height: 416px;"></div>
                             </div>
                             <div class="col-xl-8">
                                 <div class="card-body titleHam">
-                                    <h2 class="welcomeHamSize Dosis titleHam black">Welcome to a hamster's paradise</h2>
-                                    <p class="luxuryFontSize2 lineSpace black">Nestled in the heart of Cavia California, La
+                                    <h2 class=" pt-3 welcomeHamSize Dosis titleHam black mediaQ">Welcome to a hamster's
+                                        paradise</h2>
+                                    <p class="luxuryFontSize2 lineSpace black">Nestled in the heart of Cavia California,
+                                        La
                                         Petite
                                         Maison is a luxury hotel
                                         designed for the small mammal with extravagance in mind. Escape to the warm
@@ -111,12 +116,13 @@
                                         satisfaction of indulging in our
                                         quality rooms, and thank you for choosing La Petite Maison.
                                     </p>
-                                    <div class="row around bottom"><img class="img-fluid" style="width: 200px;"
+                                    <div class="row between bottom" style="margin-top: -10px;"><img
+                                            class="img-fluid d-sm-none d-none d-md-none d-lg-none d-xl-block" style="width: 200px;"
                                             src="./assets/awardfinest.png" alt="">
-                                        <img class="img-fluid" style="width: 200px;"
+                                        <img class="img-fluid d-sm-none d-none d-md-none d-lg-none d-xl-block" style="width: 200px;"
                                             src="./assets/awardsatisfaction.png" alt="">
-                                        <img class="img-fluid" style="width: 200px;" src="./assets/awardgenuine.png"
-                                            alt="">
+                                        <img class="img-fluid d-sm-none d-none d-md-none d-lg-none d-xl-block" style="width: 200px;"
+                                            src="./assets/awardgenuine.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -130,86 +136,96 @@
 
 
     <div class="container-fluid">
-        <div class="row roomsBg paddingRooms2">
+        <div class="row roomsBg paddingRooms2 center">
             <div class="row paddingRooms">
                 <h1 class="center welcomeHamSize Dosis white">Our Rooms</h1>
             </div>
             <div class="row pb-4">
                 <div class="col"></div>
-                <div class="col-8 col-mb-4 center">
+                <div class="col-10 center">
                     <div class="row">
                         <div class="col center pb-4">
-                            <div class="card cardBorder" style="width: 369px;"">
-                                <img src=" ./assets/room1.jpg" class="card-img-top cardBorder" alt="..."
-                                style="height: 190px;">
-                                <div class="card-body">
-                                    <h5 class="card-title Dosis packagesFontSize black">Queen Room</h5>
-                                    <p class="card-text SourceSans bold luxuryFontSize2 black">&nbsp850 SQ FT room with city view</p>
-                                    <p class="lineSpaceUL SourceSans luxuryFontSize2 black pBelow">
-                                        • One queen size bed <br>• Seed Bar, fireplace and large balcony <br>• Small kitchen with a refrigerator and stove
-                                    </p>
-                                    <br>
-                                    <a class="btn btn-primary middle center navFontSize SourceSans bold paddingBtns btnColor white cardBorder" style="width: 150px; height: 50px;">Reserve</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col center pb-4">
-                            <div class="card cardBorder" style="width: 369px;">
-                                <img src="./assets/room3.jpg" class="card-img-top cardBorder" alt="..."
-                                    style="height: 190px;">
-                                <div class="card-body">
-                                    <h5 class="card-title Dosis packagesFontSize black">King Room</h5>
-                                    <p class="card-text SourceSans bold luxuryFontSize2 black">&nbsp950 SQ FT room with beach view</p>
-                                    <p class="lineSpaceUL SourceSans luxuryFontSize2 black pBelow">
-                                            • One king size bed 
-                                        <br>• Seed Bar, fireplace and large balcony 
-                                        <br>• Small kitchen with a refrigerator and stove
-                                    </p>
-                                    <br>
-                                    <a class="btn btn-primary middle center navFontSize SourceSans bold paddingBtns2 btnColor white cardBorder" style="width: 150px; height: 50px;">Reserve</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col center pb-4">
-                            <div class="card cardBorder" style="width: 369px;">
-                                <img src="./assets/room2.jpg" class="card-img-top cardBorder" alt="..."
-                                    style="height: 190px;">
-                                <div class="card-body">
-                                    <h5 class="card-title Dosis packagesFontSize black">Beach Side Suite</h5>
-                                    <p class="card-text SourceSans bold luxuryFontSize2 black">&nbsp1500 SQ FT Suite with beach view</p>
-                                    <p class="lineSpaceUL card-text SourceSans luxuryFontSize2 black"  style="width: 337px;">
-                                        • One California king size bed <br>• Second room with fireplace, hot tub, and balcony <br>• Seed Bar and coffee station <br>• Full kitchen with a refrigerator, stove, and island
-                                    </p>
-                                    <a class="btn btn-primary middle center navFontSize SourceSans bold paddingBtns2 btnColor white cardBorder" style="width: 150px; height: 50px;">Reserve</a>
-                                </div>
+                            <div class="card cardBorder room" style="width: 369px;"">
+                                <div class=" card-img-top cardBorder bgQueen d-none d-sm-non d-md-block" style="height: 190px;"></div>
+                            <div class="card-body">
+                                <h5 class="card-title Dosis packagesFontSize black">Queen Room</h5>
+                                <p class="card-text SourceSans bold luxuryFontSize2 black">&nbsp850 SQ FT room with city
+                                    view</p>
+                                <p class="lineSpaceUL SourceSans luxuryFontSize2 black pBelow">
+                                    • One queen size bed <br>• Seed Bar, fireplace and large balcony <br>• Small kitchen
+                                    with a refrigerator and stove
+                                </p>
+                                <br>
+                                <a class="btn btn-primary middle center navFontSize SourceSans bold paddingBtns btnColor white cardBorder"
+                                    style="width: 150px; height: 50px;">Reserve</a>
                             </div>
                         </div>
                     </div>
-
-
-
-
+                    <div class="col center pb-4">
+                        <div class="card cardBorder room" style="width: 369px;">
+                            <div class="card-img-top cardBorder bgKing d-none d-sm-non d-md-block" style="height: 190px;"></div>
+                            <div class="card-body">
+                                <h5 class="card-title Dosis packagesFontSize black">King Room</h5>
+                                <p class="card-text SourceSans bold luxuryFontSize2 black">&nbsp950 SQ FT room with
+                                    beach view</p>
+                                <p class="lineSpaceUL SourceSans luxuryFontSize2 black pBelow">
+                                    • One king size bed
+                                    <br>• Seed Bar, fireplace and large balcony
+                                    <br>• Small kitchen with a refrigerator and stove
+                                </p>
+                                <br>
+                                <a class="btn btn-primary middle center navFontSize SourceSans bold paddingBtns2 btnColor white cardBorder"
+                                    style="width: 150px; height: 50px;">Reserve</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col center pb-4">
+                        <div class="card cardBorder room" style="width: 369px;">
+                            <div class="card-img-top cardBorder bgSuite d-none d-sm-non d-md-block" style="height: 190px;"></div>
+                            <div class="card-body">
+                                <h5 class="card-title Dosis packagesFontSize black">Beach Side Suite</h5>
+                                <p class="card-text SourceSans bold luxuryFontSize2 black">&nbsp1500 SQ FT Suite with
+                                    beach view</p>
+                                <p class="lineSpaceUL card-text SourceSans luxuryFontSize2 black" style="width: 337px;">
+                                    • One California king size bed <br>• Second room with fireplace, hot tub, and
+                                    balcony <br>• Seed Bar and coffee station <br>• Full kitchen with a refrigerator,
+                                    stove, and island
+                                </p>
+                                <a class="btn btn-primary middle center navFontSize SourceSans bold paddingBtns2 btnColor white cardBorder"
+                                    style="width: 150px; height: 50px;">Reserve</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col"></div>
+
+
+
             </div>
 
+            <div class="col"></div>
         </div>
+
+    </div>
     </div>
 
     <div class="container-fluid">
         <div class="row paddingPackage">
             <div class="col"></div>
-            <div class="col-7">
-                <div class="row Dosis"> <p class="center welcomeHamSize black">Packages</p> </div>
+            <div class="col-10 col-xxl-7">
+                <div class="row Dosis">
+                    <p class="center welcomeHamSize black">Packages</p>
+                </div>
                 <div class="row">
-                    <div class="col-12 col-xl-6 center"><img class="img-fluid" src="./assets/hamsterwedding.jpg" alt=""
-                            style="height: 234px; width: 100%;"></div>
+                    <div class="col-12 col-lg-6 center">
+                        <div class="bgWedding  d-none d-sm-non d-md-block" style="height: 234px; width: 100%;"></div>
+                    </div>
                     <div class="col">
                         <br>
-                        <p class="packagesFontSize Dosis black">Beach Wedding package</p>
-                        <p class="luxuryFontSize2 price SourceSans black">Starting US $1,500.00</p>
-                        <p class="luxuryFontSize2 lineSpace SourceSans black">Feel the warmth of the beach as the flames in
+                        <p class="packagesFontSize Dosis black mediaQ">Beach Wedding package</p>
+                        <p class="luxuryFontSize2 price SourceSans">Starting US $1,500.00</p>
+                        <p class="luxuryFontSize2 lineSpace SourceSans black">Feel the warmth of the beach as the flames
+                            in
                             your hearts ignite during our romantic beach side wdding. All wedding packages include
                             catering, an open bar, and one tier wedding cake ("Vanilla standard cake). A private dinner
                             for your closests family members and friends will be provided after the ceremony.</p>
@@ -220,17 +236,18 @@
                     <div class="col d-none d-xl-block d-xxl-block">
                         <br>
                         <p class="packagesFontSize Dosis black">Full Bloom Package</p>
-                        <p class="luxuryFontSize2 price SourceSans black">Starting US $1,000.00</p>
+                        <p class="luxuryFontSize2 price SourceSans">Starting US $1,000.00</p>
                         <p class="luxuryFontSize2 lineSpace SourceSans black">Enjoy the shade of our cherry trees as you
                             join us during our spring time celebration. We invite you to our orchards for cherry,
                             strawberry, and apple picking that is open all day. We end each evening with fresh,
                             vegetable centric dinners along with a live show from local musicians.</p>
                     </div>
-                    <div class="col-12 col-xl-6"><img class="img-fluid" src="./assets/hamsterspring.jpg" alt=""
-                            style="height: 234px; width: 100%;"></div>
+                    <div class="col-12 col-lg-6">
+                        <div class="bgBloom d-none d-sm-non d-md-block" style="height: 234px; width: 100%;"></div>
+                    </div>
                     <div class="col d-lg-block d-md-block d-sm-block d-xs-block d-xl-none"><br>
-                        <p class="packagesFontSize Dosis black">Full Bloom Package</p>
-                        <p class="luxuryFontSize2 price SourceSans black">Starting US $1,000.00</p>
+                        <p class="packagesFontSize Dosis black mediaQ">Full Bloom Package</p>
+                        <p class="luxuryFontSize2 price SourceSans">Starting US $1,000.00</p>
                         <p class="luxuryFontSize2 lineSpace SourceSans black">Enjoy the shade of our cherry trees as you
                             join us during our spring time celebration. We invite you to our orchards for cherry,
                             strawberry, and apple picking that is open all day. We end each evening with fresh,
@@ -238,12 +255,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-xl-6"><img class="img-fluid" src="./assets/hamstercheese.jpg" alt=""
-                            style="height: 234px; width: 100%;"></div>
+                    <div class="col-12 col-lg-6">
+                        <div class="bgCheese  d-none d-sm-none d-md-block" style="height: 234px; width: 100%;"></div>
+                    </div>
                     <div class="col">
                         <br>
-                        <p class="packagesFontSize Dosis black">Cheese and Seed Tour Package</p>
-                        <p class="luxuryFontSize2 price SourceSans black">Starting US $1,200.00</p>
+                        <p class="packagesFontSize Dosis black mediaQ">Cheese and Seed Tour Package</p>
+                        <p class="luxuryFontSize2 price SourceSans">Starting US $1,200.00</p>
                         <p class="luxuryFontSize2 lineSpace SourceSans black">Immerse yourself in the flavors of Cavia
                             with our Cheese and Seed tour. We consulted with connoisseurs from around the globe to
                             bring you the best flavors that nature has to offer, and create our cheeses right here
@@ -260,44 +278,47 @@
     <div class="container-fluid">
         <div class="row amenitiesBg">
             <div class="col"></div>
-            <div class="col-7 paddingAmenities">
-                <div class="row txtCenter white">
+            <div class="col-10 col-xxl-7 paddingAmenities">
+                <div class="row txtCenter white center">
                     <h3 class="Dosis welcomeHamSize">Amenities</h3>
                     <p class="SourceSans luxuryFontSize2 pt-3">Here at La Petite Maison, we invite you to enjoy our
                         services
                         in
                         hopes that you have the most relaxing stay we can provide.</p>
+                        <div class="d-block d-sm-block d-md-none" style="width: 300px; margin-top: 5%;"><p class="white navFontSize SourceSans bold" style="line-height: 40px;">• 24 Hour Room Service <br>• Complimentary Breakfast <br> • Valet Parking <br>• Beachside Pool</p></div>
+                        
                 </div>
                 <div class="row paddingAmenities2 bottom">
                     <div class="col">
-                        <div class="row center"><img src="./assets/24hour.png" alt=""
-                                style="width: 150px; height: 101px;">
+                        <div class="row center">
+                            <div class="bg24 d-none d-sm-none d-md-block" style="width: 150px; height: 104px;"></div>
                         </div>
                         <div class="row txtCenter">
-                            <p class="white navFontSize SourceSans bold pt-4">24 Hour Room Service</p>
+                            <p class="white navFontSize SourceSans bold pt-4 d-none d-sm-none d-md-block">24 Hour Room Service</p>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="row center"><img src="./assets/breakfast.png" alt=""
-                                style="width: 150px; height: 104px;"></div>
+                        <div class="row center">
+                            <div class="bgBreakfast d-none d-sm-none d-md-block" style="width: 150px; height: 104px;"></div>
+                        </div>
                         <div class="row txtCenter">
-                            <p class="white navFontSize SourceSans bold pt-4">Complimentary Breakfast</p>
+                            <p class="white navFontSize SourceSans bold pt-4 d-none d-sm-none d-md-block">Complimentary Breakfast</p>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="row center"><img src="./assets/valet.png" alt=""
-                                style="width: 100px; height: 115px;">
+                        <div class="row center">
+                            <div class="bgValet d-none d-sm-none d-md-block " style="width: 100px; height: 115px;"></div>
                         </div>
                         <div class="row txtCenter">
-                            <p class="white navFontSize SourceSans bold pt-4">Valet Parking</p>
+                            <p class="white navFontSize SourceSans bold pt-4 d-none d-sm-none d-md-block">Valet Parking</p>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="row center"><img src="./assets/pool.png" alt=""
-                                style="width: 155px; height: 110px;">
+                        <div class="row center">
+                            <div class="bgPool d-none d-sm-none d-md-block" style="width: 155px; height: 110px;"></div>
                         </div>
                         <div class="row txtCenter">
-                            <p class="white navFontSize SourceSans bold pt-4">Beachside Pool</p>
+                            <p class="white navFontSize SourceSans bold pt-4 d-none d-sm-none d-md-block">Beachside Pool </p>
                         </div>
                     </div>
                 </div>
@@ -309,7 +330,7 @@
     <div class="container-fluid">
         <div class="row paddingReserve">
             <div class="col"></div>
-            <div class="col-7">
+            <div class="col-10 col-xxl-7">
                 <div class="row bgDark paddingReserve3">
                     <div class="row txtCenter Dosis middle paddingReserve2">
                         <h2 class="welcomeHamSize white">Reserve a Room</h2>
@@ -319,39 +340,40 @@
                         <div class="col-10">
                             <div class="row SourceSans white">
                                 <div class="col center">
-                                    <div class="row paddingInputs" style="width: 177px; height: 70px;">Check-in<input
+                                    <div class="row paddingInputs pt-1" style="width: 177px; height: 70px;">Check-in<input
                                             type="text">
                                     </div>
                                 </div>
 
                                 <div class="col center">
-                                    <div class="row paddingInputs" style="width: 177px; height: 70px;">Check-out<input
+                                    <div class="row paddingInputs pt-1" style="width: 177px; height: 70px;">Check-out<input
                                             type="text">
                                     </div>
                                 </div>
 
                                 <div class="col center">
-                                    <div class="row paddingInputs" style="width: 177px; height: 70px;">Number of
+                                    <div class="row paddingInputs pt-1" style="width: 177px; height: 70px;">Number of
                                         Guests<input type="text">
                                     </div>
                                 </div>
 
                                 <div class="col center">
-                                    <div class="row paddingInputs" style="width: 177px; height: 70px;">Room Type<input
+                                    <div class="row paddingInputs pt-1" style="width: 177px; height: 70px;">Room Type<input
                                             type="text">
                                     </div>
                                 </div>
 
                                 <div class="col bottom center pt-3">
-                                    <div class="row paddingInputs"><button type="button" class="bg-primary white bold"
-                                            style="width: 177px; height: 38px;">Check Availability</button></div>
+                                    <div class="row btnPad"><button type="button"
+                                            class="bg-primary white bold cardBorder"
+                                            style="width: 177px; height: 35.5px;">Check Availability</button></div>
                                 </div>
                             </div>
                         </div>
                         <div class="col"></div>
                     </div>
                 </div>
-                <div class="row bgHamReserve" style="height: 414px;">
+                <div class="row bgHamReserve d-none d-sm-none d-md-block" style="height: 414px;">
                 </div>
             </div>
             <div class="col"></div>
@@ -360,8 +382,7 @@
 
     <div class="container-fluid">
         <div class="row bgDark paddingFooter">
-            <div class="col"></div>
-            <div class="col-4">
+            <div class="col">
                 <div class="row center"><img src="./assets/Logo.png" alt="" style="width: 143px;"></div>
                 <br>
                 <div class="row center txtCenter luxuryFontSize2 white SourceSans">
@@ -371,7 +392,6 @@
                     <p>©LA PETITE MAISON HOTELS LIMITED 1939-2018. ALL RIGHTS RESERVED.</p>
                 </div>
             </div>
-            <div class="col"></div>
         </div>
     </div>
 
