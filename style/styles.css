@@ -324,14 +324,14 @@ font-size: 20px;
 
 @media screen and (max-width: 425px) {
     div.mediaQ3 {
-        width: 200px !important;
-        height: 90px !important;
+        width: 250px !important;
+    }
+
+    p.mediaQ3 {
+        width: 250px !important;
     }
 }
 
-.mediaQ {
-    opacity: 100%;
-}
 
 .bg24 {
     background-image: url(../assets/24hour.png);
