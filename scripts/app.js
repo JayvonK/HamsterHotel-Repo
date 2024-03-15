@@ -1,0 +1,1 @@
+console.log("WELCOME TO THE HAMSTER HOTEL!");
